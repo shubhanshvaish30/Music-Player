@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/db5d9d668c.js" crossorigin="anonymous"></script>
+    <title>Sound-On</title>
+</head>
+<body>
+    
+
+    <section class="container">
+        <div class="header">
+            <span class="back"><i class="fas fa-chevron-left"></i></span>
+            <div class="play">now playing</div>
+            <span class="back"><i class="fas fa-ellipsis-v"></i></span>
+        </div>
+        <div class="player">
+            <figure class="card">
+                <img src="music.jpg" alt="">
+            </figure>
+            <div class="info">
+                <div class="name" id="songText">Pehle Bhi Main</div>
+                <div class="artist">Arjit Singh</div>
+            </div>
+            <div class="timeline">
+                <input type="range" name="" id="progress">
+            </div>
+            <div class="controls">
+                <span class="back butt"><i class="fas fa-random" id="shuffle"></i></span>
+                <span class="back butt"><i class="fas fa-step-backward" id="prev"></i></span>
+                <span class="back butt" id="playBtn"><i class="fas fa-play"></i></span>
+                <span class="back butt" id="next"><i class="fas fa-step-forward"></i></span>
+                <span class="back butt"><i class="fas fa-sync-alt" id="restart"></i></span>
+            </div>
+        </div>
+        <div class="list">
+            <h1>Songs</h1>
+            <div id="song1" class="songs">Pehle Bhi Main</div>
+            <div id="song2" class="songs">Haiwaan</div>
+            <div id="song3" class="songs">Satranga</div>
+            <div id="song4" class="songs">Arjan Vailly</div>
+            <div id="song5" class="songs">Hua Main</div>
+        </div>
+        
+    </section>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
